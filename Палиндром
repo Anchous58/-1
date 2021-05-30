@@ -1,0 +1,8 @@
+print("Проверка на палиндром")
+entered = str(input("Введите число / строку / предложение: ")).lower()
+if entered != entered[::-1]:
+    print("Это не палиндром")
+else:
+    print("Это палиндром")
+print("Нажмите Enter, чтобы выйти...")
+input()
